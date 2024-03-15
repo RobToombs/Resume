@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.25)  29 FEB 2024 22:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.25)  15 MAR 2024 18:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -229,7 +229,7 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count275
 \l__pdf_internal_box=\box53
 )
-No file Rob_Toombs_resume.aux.
+(./Rob_Toombs_resume.aux)
 \openout1 = `Rob_Toombs_resume.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
@@ -250,6 +250,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
 LaTeX Font Info:    ... okay on input line 85.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 85.
 LaTeX Font Info:    ... okay on input line 85.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -285,6 +286,7 @@ LaTeX Font Info:    ... okay on input line 85.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 85.
+(./Rob_Toombs_resume.out) (./Rob_Toombs_resume.out)
 \@outlinefile=\write3
 \openout3 = `Rob_Toombs_resume.out'.
 
@@ -296,23 +298,17 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 122.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 122.
-[1
+ [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
-al/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}]
-(./Rob_Toombs_resume.aux)
-
-Package rerunfilecheck Warning: File `Rob_Toombs_resume.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Rob_Toombs_resume.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+al/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}] (./Rob_Toombs_resume.a
+ux)
+Package rerunfilecheck Info: File `Rob_Toombs_resume.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 8678 strings out of 476025
- 138115 string characters out of 5790017
+ 8684 strings out of 476025
+ 138247 string characters out of 5790017
  1871388 words of memory out of 5000000
  29062 multiletter control sequences out of 15000+600000
  527653 words of font info for 47 fonts, out of 8000000 for 9000
@@ -321,7 +317,7 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2023/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb><
 /usr/local/texlive/2023/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></us
 r/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on Rob_Toombs_resume.pdf (1 page, 47233 bytes).
+Output written on Rob_Toombs_resume.pdf (1 page, 47241 bytes).
 PDF statistics:
  40 PDF objects out of 1000 (max. 8388607)
  30 compressed objects within 1 object stream
