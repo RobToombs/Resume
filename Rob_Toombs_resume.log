@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.25)  14 JUN 2024 17:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.25)  12 DEC 2024 20:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -309,7 +309,7 @@ Package rerunfilecheck Info: File `Rob_Toombs_resume.out' has not changed.
 Here is how much of TeX's memory you used:
  8684 strings out of 476025
  138247 string characters out of 5790017
- 1871388 words of memory out of 5000000
+ 1870388 words of memory out of 5000000
  29062 multiletter control sequences out of 15000+600000
  527653 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -317,7 +317,7 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2023/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb><
 /usr/local/texlive/2023/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></us
 r/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on Rob_Toombs_resume.pdf (1 page, 47249 bytes).
+Output written on Rob_Toombs_resume.pdf (1 page, 46900 bytes).
 PDF statistics:
  40 PDF objects out of 1000 (max. 8388607)
  30 compressed objects within 1 object stream

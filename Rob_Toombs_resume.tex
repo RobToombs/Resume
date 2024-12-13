@@ -106,8 +106,8 @@
 
 \section*{\href{https://www.reddit.com/r/EngineeringResumes/wiki/index\#wiki_skills}{Skills}}
 \textbf{Tools:} Git/Bitbucket, Webpack, Gradle/Maven, Concourse/Jenkins, Veracode/SourceClear, DeltaXML, Okta \\
-\textbf{Tech:} Docker, Spring, Hibernate, GraphQL, Puppeteer/Cucumber, AWS (Lambda, Fargate, ALB, Cognito, DynamoDB, DocumentDB, S3, CloudFormation)  \\
-\textbf{Languages:} Java, Kotlin, Go, Elm, PostgreSQL, XSLT/XPath
+\textbf{Tech:} Docker, Spring, Hibernate, GraphQL, Puppeteer/Cucumber, AWS (Lambda, Fargate, ALB/NLB, Route 53, Cognito, DynamoDB, SQS/SNS, S3, Step Functions, CloudFormation, CDK)  \\
+\textbf{Languages:} Java, Kotlin, Go, Python, Elm, PostgreSQL, XSLT/XPath
 
 \vspace{-6.5pt}
 
@@ -119,9 +119,10 @@
 \textbf{Principal Associate,} \href{https://www.fstl1992.com/}{Capital One} -- Boston, MA \hfill 2023 -- Present \\
 \vspace{-9pt}
 \begin{itemize}
+  \item Worked cross team to develop a step function based auditing solution for providing real time information on outbound customer collections calls
+  \item Built a "work around" solution to support Kohl's agents access to Capital One resources in the event of an Island Browser service outage utilizing a NGINX proxy server hosted in ECS behind a NLB/ALB with outage based cross region routing
   \item Led the modernization of an outdated Java 8 EC2 API into a Go Fargate API, while decreasing the code base by \textasciitilde{}60\%, increasing test coverage to over 90\%, and increasing transaction per second throughput from \textasciitilde{}300 TPS to 1000+ TPS
-  \item Led in the development of a content service API designed to increase content availability resilience for frontend services, decrease response times, and eliminate complicated business knowledge requirements for UI content retrieval
-  \item Frequently transitioned across varied projects providing ad hoc support to meet deadlines and goals
+  \item Led the development of a content service API designed to increase content availability resilience for frontend services, decrease response times, and eliminate complicated business knowledge requirements for UI content retrieval
   \item Mentored Boston school students in learning basic website development fundamentals as part of Capital One Coders
 \end{itemize}
 
@@ -132,9 +133,6 @@
   \item Created the TelemetryRx questionnaire engine which translates JSON templates into complex questionnaires with a limitless number of questions, question types, inner question associations and interactions
   \item Created a tool to automate Eligibility Verification (E1) and Claim Billing (B1) test claims through RelayHealth to dramatically improve end user productivity
   \item Responsible for our UI overhaul from Elm 0.18 to Elm 0.19.1, resolving multiple breaking changes, managing deprecated libraries, and implementing a brand-new testing framework while limiting developer transition time
-  \item Led many security design changes from input sanitization, user scope/permission handling, to Spring Security upgrades and Veracode/SourceClear compliance
-  \item Conducted code reviews, lunch \& learns, katas, and paired programming sessions to quickly onboard new engineers while developing skills in junior and senior members alike
-  \item Provide a point of contact layer between the engineering team and management to facilitate story requirement feasibility, clarifications, impact, and breakdown 
 \end{itemize}
 
 \textbf{Senior Software Engineer,} \href{https://www.fstl1992.com/}{OpenText (acquired from Dell EMC)} -- Norwood, MA \hfill 2013 -- 2018 \\
@@ -161,7 +159,7 @@
  \begin{itemize}
    \item \textbf{Docker Kata!:} A series of individual exercises used to learn the basics of docker, how to dockerize various components, and connect them all in a docker network to create a full stack application
    \item \textbf{Tech Stack POC:} A full stack application consisting of three front-end applications written in Elm/Vue/Flutter running on separate containers, a single back-end container hosting a Kotlin/Quarkus application, a Postgres container, and an Nginx proxy container handling seamless routing between each front-end app
-   \item \textbf{rob-toombs.com (WIP):} Single-page Svelte/Typescript app hosted in S3, distributed through CloudFront, user sign up/in integration and OAuth 2.0 flow using Cognito, and API Gateway providing secured access to a Go Lambda backend content engine 
+   \item \textbf{rob-toombs.com:} Single-page Svelte/Typescript app hosted in S3, distributed through CloudFront, user sign up/in integration and OAuth 2.0 flow using Cognito, and API Gateway providing secured access to a Go Lambda backend content engine
  \end{itemize}
 
 \vspace{-18.5pt}
