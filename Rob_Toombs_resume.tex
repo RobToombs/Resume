@@ -106,7 +106,7 @@
 
 \section*{\href{https://www.reddit.com/r/EngineeringResumes/wiki/index\#wiki_skills}{Skills}}
 \textbf{Tools:} Git/Bitbucket, Webpack, Gradle/Maven, Concourse/Jenkins, Veracode/SourceClear, DeltaXML, Okta \\
-\textbf{Tech:} Docker, Spring, Hibernate, GraphQL, Puppeteer/Cucumber, AWS (Lambda, Fargate, ALB/NLB, Route 53, Cognito, DynamoDB, SQS/SNS, S3, Step Functions, CloudFormation, CDK)  \\
+\textbf{Tech:} Claude Code, Docker, Spring, Hibernate, GraphQL, Puppeteer/Cucumber, AWS (Lambda, Fargate, ALB/NLB, Route 53, Cognito, DynamoDB, SQS/SNS, S3, Step Functions, CloudFormation, CDK)  \\
 \textbf{Languages:} Java, Kotlin, Go, Python, Elm, PostgreSQL, XSLT/XPath
 
 \vspace{-6.5pt}
@@ -119,6 +119,7 @@
 \textbf{Principal Associate,} \href{https://www.fstl1992.com/}{Capital One} -- Boston, MA \hfill 2023 -- Present \\
 \vspace{-9pt}
 \begin{itemize}
+  \item Heavily leveraging Claude Code for daily tasks from code language migrations, automating enterprise tech backlog cleanup, increasing test quality and coverage, tracking daily work done and automating JIRA documenation
   \item Assisted Island.io engineers in creating and maintaining connectors between Island Browser and Capital One resources for Kohl's servicing agents for a Partnership-as-a-Service (PaaS) implementation
   \item Worked across multiple teams to develop a AWS Step Function, Lambda, and DynamoDB based auditing solution, handling millions of daily requests, providing real time information on outbound customer collections calls
   \item Built a "work around" solution to support Kohl's agents access to Capital One resources in the event of an Island Browser service outage utilizing a NGINX proxy server hosted in ECS behind a NLB/ALB with outage based cross region routing
@@ -158,9 +159,8 @@
 
  \section*{Projects}
  \begin{itemize}
-   \item \textbf{Docker Kata!:} A series of individual exercises used to learn the basics of docker, how to dockerize various components, and connect them all in a docker network to create a full stack application
+    \item \textbf{rob-toombs.com:} My constantly evolving "tech sandbox" site consisting of a Svelte/Typescript SPA hosted in S3, distributed through CloudFront, with OAuth 2.0 integration using AWS Cognito, and API Gateway providing secured access to a Go Lambda backend questionnaire engine. The backend stack is nearly fully managed through python CDK deployments, with separate Dev/Prod environments in development and eyes on future CodePipeline integration.
    \item \textbf{Tech Stack POC:} A full stack application consisting of three front-end applications written in Elm/Vue/Flutter running on separate containers, a single back-end container hosting a Kotlin/Quarkus application, a Postgres container, and an Nginx proxy container handling seamless routing between each front-end app
-   \item \textbf{rob-toombs.com:} My "tech sandbox" site consisting of a Svelte/Typescript SPA hosted in S3, distributed through CloudFront, with OAuth 2.0 integration using AWS Cognito, and API Gateway providing secured access to a Go Lambda backend questionnaire engine
  \end{itemize}
 
 \vspace{-18.5pt}
